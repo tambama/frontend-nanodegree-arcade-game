@@ -39,8 +39,8 @@ Enemy.prototype.render = function() {
 // a handleInput() method.
 var Player = function () {
     this.sprite = 'images/char-boy.png';
-    this.x = 200;
-    this.y = 320;
+    this.x = 0;
+    this.y = 400;
 };
 
 // Update player position
@@ -81,19 +81,13 @@ Player.prototype.reset = function() {
 
 
 // Now instantiate your objects.
-var enemyOne = new Enemy(-90, 60);
-var enemyTwo = new Enemy(-390, 140);
-var enemyThree = new Enemy(-290, 230);
-var enemyFour = new Enemy(-190, 140);
-var enemyFive = new Enemy(-490, 60);
-var enemySix = new Enemy(-890, 230);
 // Place all enemy objects in an array called allEnemies
-var allEnemies = [enemyOne, enemyTwo, enemyThree, enemyFour, enemyFive, enemySix];
+var allEnemies = [new Enemy(-90, 60), new Enemy(-390, 140), new Enemy(-290, 230), new Enemy(-190, 140), new Enemy(-490, 60), new Enemy(-890, 230)];
 // Place the player object in a variable called player
 var player = new Player();
 
 
-// Sets an initial player score of 0.
+// Score.
 var score = 0;
 document.getElementById('score').innerHTML = score;
 
