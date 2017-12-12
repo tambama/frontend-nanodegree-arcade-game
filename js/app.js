@@ -1,7 +1,3 @@
-// Sets an initial player score of 0.
-var score = 0;
-document.getElementById('score').innerHTML = score;
-
 // Enemies our player must avoid
 var Enemy = function(x, y) {
     // Variables applied to each of our instances go here,
@@ -96,6 +92,10 @@ var allEnemies = [enemyOne, enemyTwo, enemyThree, enemyFour, enemyFive, enemySix
 // Place the player object in a variable called player
 var player = new Player();
 
+
+// Sets an initial player score of 0.
+var score = 0;
+document.getElementById('score').innerHTML = score;
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
