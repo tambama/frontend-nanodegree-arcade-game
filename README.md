@@ -2,7 +2,7 @@
 
 ## How to run arcade game
 
-* Clone the repository using git clone https://github.com/tambama/frontend-nanodegree-feedreader.git
+* Clone the repository using `git clone https://github.com/tambama/frontend-nanodegree-arcade-game.git`
 * Open index.html in a browser
 
 ## How to Play
