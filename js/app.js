@@ -47,7 +47,7 @@ var Player = function () {
 Player.prototype.update = function() {
     
    // player gets to the water
-   if (player.y < 20) {
+   if (this.y < 20) {
    score++;
    document.getElementById('score').innerHTML = score;
    this.reset();
