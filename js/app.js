@@ -19,7 +19,7 @@ class Enemy {
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
     update(dt){
-        if (this.x < 505) {
+        if (this.x < 515) {
             // multiply any movement by the dt parameter
             // which will ensure the game runs at the same speed for
             // all computers.
