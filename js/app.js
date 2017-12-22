@@ -54,7 +54,7 @@ class Player {
     }
 
     update(){
-        // has player reached the water
+        // increment score if player has reached the water
         if(this.y < 20){
             score++
             this.reset();
@@ -113,6 +113,7 @@ function populateEnemies(){
     }
 }
 
+// empty the enemies array
 function depopulateEnemies(){
     allEnemies = [];
 }
