@@ -121,6 +121,7 @@ function depopulateEnemies(){
 // Place the player object in a variable called player
 var player = new Player(200,320);
 populateEnemies();
+updateScore();
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
